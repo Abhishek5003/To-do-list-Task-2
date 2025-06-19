@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, "Segoe UI", Tahoma, Geneva, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  color: white;
+  align-items: center;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  padding: 2px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav li {
+  border: 2px solid #2196f3;
+  border-radius: 10px;
+  padding: 0 4px 0 4px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul a:hover {
+  color: #fffd8c;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.cta {
+  background-color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #2575fc;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta:hover {
+  background-color: #2575fc;
+  color: white;
+  transform: scale(1.05);
+}
